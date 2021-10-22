@@ -1,0 +1,18 @@
+body{
+background-color: #3d5a80;
+}
+
+main .bloco{
+width: 930px;
+height: 680px;
+background-color: white;
+margin-left: 30em;
+margin-top: 8em;
+border-radius: 30px;
+}
+
+main .bloco img{
+height: 600px;
+margin-left: 41px;
+margin-top: 34px;
+}
