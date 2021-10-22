@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+
+body {
+background-color: #3d5a80;
+display: flex;
+min-height: 100vh;
+}
+
+main .bloco{
+width: 930px;
+height: 680px;
+background-color: white;
+margin-left: 30em;
+margin-top: 8em;
+border-radius: 30px;
+flex-direction: column;
+justify-content: center;
+}
+
+main .bloco img {
+height: 600px;
+margin-left: 41px;
+margin-top: 34px;
+float:left;
+}
+
+h1{
+color: #ed5631;
+padding-left: 50%;
+padding-top: 1.5em;
+}
+
+main .redes-sociais img {
+position: absolute;
+height: 35px;
+padding-left: 12em;
+margin-left: 6em;
+}
+
+main .redes-sociais a:first-child img {
+margin-left: 0;
+}
+
+main .redes-sociais a:last-child img {
+height: 40px;
+}
+
+main .alternative span{
+color: #ed5631;
+display: inline-block;
+margin-left: 9em;
+margin-top: 6em;
+}
+
+main .alternative span::before, main .alternative span::after {
+content: '';
+height: 1px;
+width: 86px;
+background-color: tomato;
+float: left;
+margin: 11px;
+}
+
+main .alternative span::after {
+left: 50px;
+float: right;
+}
