@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 * {
 margin: 0;
@@ -36,21 +36,19 @@ h1{
 color: #ed5631;
 padding-left: 50%;
 padding-top: 1.5em;
+margin-left: 30px;
+font-weight: 500;
 }
 
 main .redes-sociais img {
 position: absolute;
 height: 35px;
-padding-left: 12em;
+padding-left: 14em;
 margin-left: 6em;
 }
 
 main .redes-sociais a:first-child img {
 margin-left: 0;
-}
-
-main .redes-sociais a:last-child img {
-height: 40px;
 }
 
 main .alternative span{
@@ -63,7 +61,7 @@ margin-top: 6em;
 main .alternative span::before, main .alternative span::after {
 content: '';
 height: 1px;
-width: 86px;
+width: 115px;
 background-color: tomato;
 float: left;
 margin: 11px;
