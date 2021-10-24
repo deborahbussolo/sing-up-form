@@ -12,14 +12,16 @@ body {
 background-color: #3d5a80;
 display: flex;
 min-height: 100vh;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 main .bloco{
+position: relative;
 width: 930px;
 height: 680px;
 background-color: white;
-margin-left: 30em;
-margin-top: 8em;
 border-radius: 30px;
 flex-direction: column;
 justify-content: center;
@@ -118,4 +120,12 @@ transition: all 0.3s;
 
 main form #button:hover{
 background-color: #E13D14;
+}
+
+main .circle img{
+position: fixed;
+height: 800px;
+margin-top: -398px;
+left: -225px;
+z-index: -1;
 }
